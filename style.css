@@ -1,0 +1,30 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.qr_container {
+    background-color: white;
+    margin-top: 5%;
+    margin-right: 35%;
+    margin-left: 35%;
+    margin-bottom: 1%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-radius: 28px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.qr_container .qr_img img {
+    border-radius: 10px;
+}
+
+.qr_container .qr_text h4 {
+    font-size: 25px;
+} 
+
+.qr_container .qr_text p {
+    font-size: 18px;
+}
